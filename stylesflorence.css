@@ -1,0 +1,202 @@
+ul{
+    display: flex;
+}
+li{
+    flex: 1;
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 140, 236);
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.free-ship{
+    text-align: center;
+    background-image: linear-gradient(rgb(177, 140, 236),rgb(240, 235, 235));
+    margin-top: -10px;
+    font-size: 12px;
+    padding: 14px;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.end{
+    position: relative;
+    left: 350px;
+    margin-left: 20px;
+}
+.logo{
+    position: relative;
+    left: 140px;
+}
+.padding-around{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.purple{
+    color: rgb(177, 140, 236);
+    font-size: 15px;
+    margin-right: 40px;
+}
+.white-heading{
+    color: white;
+}
+.purple-bg{
+    background-color:  rgb(156, 161, 233);
+    text-align: center;
+    margin-left: -50px;
+    color: white;
+}
+.border-box{
+    width: 4.5cm;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 15px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 300px;
+    position: relative;
+    top: 130px;
+    
+}
+.flex-pics{
+    display: flex;
+}
+.flex-item{
+    flex: 1;
+    text-align: center;
+}
+.flex-pic{
+    width: 350px;
+    margin: 10px;
+}
+.heading{
+    color: rgb(151, 104, 227);
+    text-align: center;
+    font-size: 25px;
+}
+label{
+    color: rgb(153, 108, 226);
+    text-align: center;
+}
+.msg-by-mills{
+    background-color: rgb(151, 146, 228);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+.btn{
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(112, 71, 237);
+    color: rgb(112, 71, 237);
+}
+button:hover{
+    background-color: rgb(112, 71, 237);
+    color: white;
+}
+#tiktokicon{
+    color: rgb(112, 71, 237);
+}
+#insticon{
+    color: rgb(112, 71, 237);
+}
+.icon-space{
+    margin-left: 41%;
+}
+.footer-heading{
+    color: rgba(131, 97, 235, 0.934);
+    text-align: center;
+}
+.footer-data{
+    text-align: center;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0;
+    row-gap: 0;
+}
+.collage{
+    width: 350px;
+    height: 350px;
+    margin-left: -20px;
+}
+.black-center{
+    text-align: center;
+    font-size: 15px;
+}
+h1{
+    font-size: 1cm;
+}
+.logo-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.logo-item{
+    width: 200px;
+}
+table{
+    text-align: left;
+    font-size: 12px;
+}
+tr{
+    margin: 30px;
+}
+.last-table{
+    margin-right: 300px;
+}
+input{
+    font-size: 17px;
+    border: 1px solid black;
+    width: 200px;
+    margin-right: 30px;
+    padding: 8px;
+}
+.text-center{
+    text-align: center;
+    color: rgb(124, 76, 213);
+}
+.last-footer{
+    background-color: rgb(246, 244, 247);
+}
+.fixed{
+    position: fixed;
+    background-color: white;
+    width: 1550px;
+    margin-left: -20px;
+    margin-top: -15px;
+}
+.grid-pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-item{
+    margin: 10px;
+}
+.grid-pic{
+    height: 500px;
+
+}
+.purple-heading{
+    color: rgb(135, 111, 209);
+    text-align: center;
+}
